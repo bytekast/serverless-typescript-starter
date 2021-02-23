@@ -1,0 +1,5 @@
+.travis.yml
+.serverless
+.webpack
+coverage
+node_modules

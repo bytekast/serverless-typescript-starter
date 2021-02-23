@@ -1,0 +1,25 @@
+{
+  "name": "event-service",
+  "version": "0.1.0",
+  "main": "src/handler.js",
+  "scripts": {
+    "test": "serverless-bundle test",
+    "lint": "npx eslint src --ext .js,.ts",
+    "pretty": "prettier --write \"./**/*.{ts,js,jsx,json}\""
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.64",
+    "@types/jest": "^26.0.14",
+    "serverless-bundle": "3.2.1",
+    "serverless-dotenv-plugin": "^3.0.0",
+    "serverless-offline": "^6.8.0",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "2.2.1"
+  },
+  "dependencies": {}
+}
