@@ -49,7 +49,7 @@ export async function hello(
 To create a new Serverless project.
 
 ``` bash
-$ serverless install --url https://github.com/bytekast/serverless-typescript-starter --name my-project
+$ serverless install --url https://github.com/bytekast/serverless-typescript-starter/tree/main --name my-project
 ```
 
 Enter the new directory
